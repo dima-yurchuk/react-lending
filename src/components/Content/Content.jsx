@@ -1,11 +1,12 @@
 import React from 'react';
-import classes from './Content.module.css'
+import  './Content.scss'
+import Top from "../Top";
 
 const Content = () => {
     return (
         <div>
-            <div className={classes.content}>
-                Content
+            <div className={'content'}>
+
             </div>
         </div>
     );
