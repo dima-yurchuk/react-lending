@@ -1,0 +1,64 @@
+.container{
+    padding-top: 48px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .product-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 380px;
+        width: 1200px;
+        &__content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 580px;
+            height: 259px;
+        }
+        &__text{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 171px;
+            width: 580px;
+        }
+        &__button{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+            height: 40px;
+            width: 274px;
+            border: solid 1px;
+            border-radius: 5px;
+            background-color:#1343EA;
+        }
+        &__title{
+            height: 84px;
+            width: 500px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 42px;
+            color: #0A0D27;
+        }
+        &__subtitle{
+            height: 63px;
+            width: 500px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &__color{
+            color: #1343EA;
+        }
+    }
+
+}
