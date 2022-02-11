@@ -1,8 +1,8 @@
 .container{
     padding-top: 48px;
-    position: relative;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     .product-top{
         display: flex;
         justify-content: space-between;
@@ -60,5 +60,30 @@
             color: #1343EA;
         }
     }
+    .advantages-easy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 48px;
+        width: 1200px;
+        height: 265px;
+    }
+    .advantages-profitably{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 48px;
+        width: 1200px;
+        height: 297px;
+    }
+    .advantages-safely{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 48px;
+        width: 1200px;
+        height: 291px;
+      }
+
 
 }

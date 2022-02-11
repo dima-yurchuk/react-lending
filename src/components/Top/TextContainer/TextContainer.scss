@@ -1,0 +1,27 @@
+.advantages-easy-text{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 580px;
+  height: 129px;
+  &__title{
+    width: 580px;
+    height: 42px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #0A0D27;
+  }
+  &__text{
+    width: 580px;
+    height: 63px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0A0D27;
+  }
+}
