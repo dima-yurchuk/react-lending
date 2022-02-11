@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.scss'
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -9,12 +10,16 @@ const Navbar = () => {
                     Wild Best
                 </div>
                 <div className={'navbar__button'}>
-                    <button className={'navbar__link'}>
-                        Telegram канал
-                    </button>
-                    <button className={'navbar__link'}>
-                        Поддержка
-                    </button>
+                    <Link to={'/telegram'}>
+                        <button className={'navbar__link'}>
+                            Telegram канал
+                        </button>
+                    </Link>
+                    <Link to={'/support'}>
+                        <button className={'navbar__link'}>
+                            Поддержка
+                        </button>
+                    </Link>
                 </div>
                 <div className={'navbar__button'}>
                     <button className={'navbar__auth button navbar_login'}>
