@@ -1,10 +1,6 @@
 import React from 'react';
 import './Top.scss'
 import '../Navbar/Navbar.scss'
-import frame1 from './images/Frame_1.png'
-import frame2 from './images/Frame_2.png'
-import frame3 from './images/Frame_3.png'
-import frame4 from './images/Frame_4.png'
 import TextContainer from "./TextContainer/TextContainer";
 
 const Top = () => {
@@ -47,20 +43,20 @@ const Top = () => {
                         </button>
                     </div>
 
-                    <img className={'product-top__image'} src={frame1}/>
+                    <img className={'product-top__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_1.png'}/>
 
                 </div>
 
                 <div className={'advantages-easy'}>
-                    <img className={'advantages-easy__image'} src={frame2}/>
+                    <img className={'advantages-easy__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_2.png'}/>
                     <TextContainer text={text1}/>
                 </div>
                 <div className={'advantages-profitably'}>
                     <TextContainer text={text2}/>
-                    <img className={'advantages-easy__image'} src={frame3}/>
+                    <img className={'advantages-easy__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_3.png'}/>
                 </div>
                 <div className={'advantages-safely'}>
-                    <img className={'advantages-easy__image'} src={frame4}/>
+                    <img className={'advantages-easy__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_4.png'}/>
                     <TextContainer text={text3}/>
                 </div>
             </div>
