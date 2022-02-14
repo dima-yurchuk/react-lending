@@ -1,0 +1,21 @@
+.try-for-free{
+  height: 180px;
+  width: 1440px;
+  margin-top: 80px;
+  &__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-left: 24px;
+    margin-right: 32px;
+  }
+}

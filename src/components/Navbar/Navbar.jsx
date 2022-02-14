@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.scss'
 import {Link} from "react-router-dom";
+import Button from "../UI/Button/Button";
 
 const Navbar = () => {
     return (
@@ -25,9 +26,7 @@ const Navbar = () => {
                     <button className={'navbar__auth button navbar_login'}>
                         Вход
                     </button>
-                    <button className={'navbar__auth button navbar_register'}>
-                        Регистрация
-                    </button>
+                    <Button text={'Регистрация'} width={143}/>
                 </div>
             </nav>
         </div>

@@ -1,9 +1,10 @@
 import React from 'react';
-import './Top.scss'
+import './Advantages.scss'
 import '../Navbar/Navbar.scss'
 import TextContainer from "./TextContainer/TextContainer";
+import Button from "../UI/Button/Button";
 
-const Top = () => {
+const Advantages = () => {
     const text1 = {
         title: 'Удобно',
         text: 'С помощью нашего сервиса вы сможете делать полностью автоматизированные множественные выкупы, ' +
@@ -38,25 +39,23 @@ const Top = () => {
                             </div>
                         </div>
 
-                        <button className={'product-top__button'}>
-                            Попробовать бесплатно
-                        </button>
+                        <Button text={'Попробовать бесплатно'} width={274}/>
                     </div>
 
-                    <img className={'product-top__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_1.png'}/>
+                    <img className={'product-top__image'} src='/images/support/Frame_1.png'/>
 
                 </div>
 
                 <div className={'advantages-easy'}>
-                    <img className={'advantages-easy__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_2.png'}/>
+                    <img className={'advantages-easy__image'} src='images/support/Frame_2.png'/>
                     <TextContainer text={text1}/>
                 </div>
                 <div className={'advantages-profitably'}>
                     <TextContainer text={text2}/>
-                    <img className={'advantages-easy__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_3.png'}/>
+                    <img className={'advantages-easy__image'} src='images/support/Frame_3.png'/>
                 </div>
                 <div className={'advantages-safely'}>
-                    <img className={'advantages-easy__image'} src={process.env.PUBLIC_URL + 'images/top/Frame_4.png'}/>
+                    <img className={'advantages-easy__image'} src='images/support/Frame_4.png'/>
                     <TextContainer text={text3}/>
                 </div>
             </div>
@@ -64,4 +63,4 @@ const Top = () => {
     );
 };
 
-export default Top;
+export default Advantages;

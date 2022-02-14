@@ -1,12 +1,16 @@
 import React from 'react';
 import  './Content.scss'
-import Top from "../Top/Top";
+import Advantages from "../Advantages/Advantages";
+import TryForFree from "../ TryForFree/ TryForFree";
+import HowItWorks from "../HowItWorks/HowItWorks";
 
 const Content = () => {
     return (
         <div>
             <div className={'content'}>
-                <Top/>
+                <Advantages/>
+                <TryForFree/>
+                <HowItWorks/>
             </div>
         </div>
     );

@@ -23,14 +23,8 @@
         font-size: 14px;
         line-height: 20px;
     }
-    &__auth{
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 19px;
-        text-align: center;
-        height: 40px;
+    &__button{
+        margin-right: 16px ;
     }
     &_login{
         width: 83px;
@@ -38,13 +32,6 @@
         border: solid 1px darkgray;
         border-radius: 5px;
         margin-right: 8px;
-    }
-    &_register{
-        width: 143px;
-        background-color:#1343EA;
-        border: solid 1px;
-        border-radius: 5px;
-        margin-right: 16px ;
-        color: #FFFFFF;
+        font-weight: 600;
     }
 }

@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Telegram from "./components/Telegram/Telegram";
 import Support from "./components/Support/Support";
+import Button from "./components/UI/Button/Button";
 
 
 function App() {
