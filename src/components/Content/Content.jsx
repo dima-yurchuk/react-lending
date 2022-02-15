@@ -3,6 +3,7 @@ import  './Content.scss'
 import Advantages from "../Advantages/Advantages";
 import TryForFree from "../ TryForFree/ TryForFree";
 import HowItWorks from "../HowItWorks/HowItWorks";
+import KeyPoints from "../KeyPoints/KeyPoints";
 
 const Content = () => {
     return (
@@ -10,7 +11,9 @@ const Content = () => {
             <div className={'content'}>
                 <Advantages/>
                 <TryForFree/>
-                <HowItWorks/>
+                <TryForFree/>
+                <KeyPoints/>
+                <TryForFree/>
             </div>
         </div>
     );
