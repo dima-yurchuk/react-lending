@@ -5,6 +5,7 @@ import TryForFree from "./ TryForFree/ TryForFree";
 import HowItWorks from "./HowItWorks/HowItWorks";
 import KeyPoints from "./KeyPoints/KeyPoints";
 import WhoNeeds from "./WhoNeeds/WhoNeeds";
+import Reviews from "./Reviews/Reviews";
 
 const Content = () => {
     return (
@@ -12,11 +13,13 @@ const Content = () => {
             <div className={'content'}>
                 <Advantages/>
                 <TryForFree/>
+                <HowItWorks/>
                 <TryForFree/>
                 <KeyPoints/>
                 <TryForFree/>
                 <WhoNeeds/>
                 <TryForFree/>
+                <Reviews/>
             </div>
         </div>
     );

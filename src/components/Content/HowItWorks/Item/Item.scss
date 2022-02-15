@@ -1,0 +1,22 @@
+.how-it-works-item{
+  width: 1200px;
+  height: 207px;
+  &__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    height: 207px;
+  }
+  &__text{
+    margin-top: 24px;
+    width: 484px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0A0D27;
+  }
+}

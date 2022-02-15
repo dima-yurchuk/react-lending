@@ -1,0 +1,12 @@
+.how-it-works{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 88px;
+  width: 1400px;
+  &__content{
+    width: 1200px;
+    height: 1088px;
+    margin-top: 78px;
+  }
+}
