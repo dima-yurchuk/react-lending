@@ -1,8 +1,8 @@
 import React from 'react';
 import './Advantages.scss'
-import '../Navbar/Navbar.scss'
+import '../../Navbar/Navbar.scss'
 import TextContainer from "./TextContainer/TextContainer";
-import Button from "../UI/Button/Button";
+import Button from "../../UI/Button/Button";
 
 const Advantages = () => {
     const text1 = {

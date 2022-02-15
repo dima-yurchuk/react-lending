@@ -1,0 +1,13 @@
+.who-needs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  margin-top: 88px;
+  &__content{
+    width: 1200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

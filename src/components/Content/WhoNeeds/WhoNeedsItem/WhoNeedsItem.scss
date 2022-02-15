@@ -1,0 +1,26 @@
+.who-needs-item{
+  width: 373.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title{
+    margin-top: 48px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #0A0D27;
+  }
+  &__text{
+    margin-top: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0A0D27;
+  }
+}
