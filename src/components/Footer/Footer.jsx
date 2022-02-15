@@ -3,9 +3,10 @@ import classes from './Footer.scss'
 
 const Footer = () => {
     return (
-        <div>
-            <div className={'footer'}>
-                Footer
+        <div className={'footer'}>
+            <div className={'footer__text'}>
+                Контакты   |   Политика конфиденциальности   |   Публичная оферта
+                © 2021 WildBest
             </div>
         </div>
     );

@@ -4,5 +4,16 @@
     align-items: center;
     background: #0A0D27;
     height: 166px;
-    color: white;
+    &__text{
+        height: 76px;
+        width: 456px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
 }
