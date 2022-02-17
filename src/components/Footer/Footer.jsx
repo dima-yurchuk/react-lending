@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className={'footer'}>
             <div className={'footer__text'}>
-                Контакты   |   Политика конфиденциальности   |   Публичная оферта
+                Контакты&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Политика конфиденциальности&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Публичная оферта<br/>
                 © 2021 WildBest
             </div>
         </div>

@@ -1,0 +1,51 @@
+.tariffs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 580px;
+  height: 339px;
+  border: 1px solid #D6DADE;
+  box-sizing: border-box;
+  border-radius: 8px;
+  &__title{
+    margin-top: 48px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #0A0D27;
+  }
+  &__text{
+    margin-top: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0A0D27;
+    opacity: 0.5;
+  }
+  &__price{
+    margin-top: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #0A0D27;
+  }
+  &__offer{
+    margin-top: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #0A0D27;
+  }
+}
