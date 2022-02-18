@@ -1,7 +1,7 @@
 import React from 'react';
 import './HowItWorks.scss'
 import Title from "../Title/Title";
-import Item from "./Item/Item";
+import HowItWorksItem from "./HowItWorksItem/HowItWorksItem";
 import StepsLine from "./StepsLine/StepsLine";
 
 const HowItWorks = () => {
@@ -17,23 +17,20 @@ const HowItWorks = () => {
         text5: 'Через 14 дней вы занимаете планируемое место в ТОПе и начинаете получать органические продажи.'
     }
     return (
-        <div>
-            <div className={'how-it-works'}>
-                <Title text={'Как это работает?'}/>
-                <div className={'how-it-works__content'}>
-                    <Item height={207} marginTop={null} align={'left'} image={'website.png'} heightTextBlock={63}
-                          text={texts.text1}/>
-                    <Item height={207} marginTop={26} align={'right'} image={'settings.png'} heightTextBlock={63}
-                          text={texts.text2}/>
-                    <Item height={207} marginTop={16} align={'left'} image={'rating.png'} heightTextBlock={63}
-                          text={texts.text3}/>
-                    <Item height={207} marginTop={16} align={'right'} image={'startup.png'} heightTextBlock={63}
-                          text={texts.text4}/>
-                    <Item height={186} marginTop={16} align={'left'} image={'report.png'} heightTextBlock={42}
-                          text={texts.text5}/>
-                    <StepsLine/>
-                </div>
-                {/*<StepsLine/>*/}
+        <div className={'how-it-works'}>
+            <Title text={'Как это работает?'}/>
+            <div className={'how-it-works__content'}>
+                <HowItWorksItem height={207} marginTop={null} align={'left'} image={'website.png'} heightTextBlock={63}
+                                text={texts.text1}/>
+                <HowItWorksItem height={207} marginTop={26} align={'right'} image={'settings.png'} heightTextBlock={63}
+                                text={texts.text2}/>
+                <HowItWorksItem height={207} marginTop={16} align={'left'} image={'rating.png'} heightTextBlock={63}
+                                text={texts.text3}/>
+                <HowItWorksItem height={207} marginTop={16} align={'right'} image={'startup.png'} heightTextBlock={63}
+                                text={texts.text4}/>
+                <HowItWorksItem height={186} marginTop={16} align={'left'} image={'report.png'} heightTextBlock={42}
+                                text={texts.text5}/>
+                <StepsLine/>
             </div>
         </div>
     );

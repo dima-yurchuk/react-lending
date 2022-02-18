@@ -21,43 +21,39 @@ const Advantages = () => {
             'отпечатки, IP адреса, поведенческие факторы и банковские карты для оплаты.'
     }
     return (
-        <div>
-            <div className={'container'}>
-
-
-                <div className={'product-top'}>
-                    <div className={'product-top__content'}>
-                        <div className={'product-top__text'}>
-                            <div className={'product-top__title'}>
-                                Продвигайте свои товары в ТОП<br/>
-                                <span className={'product-top__color'}>за пару кликов мыши</span>
-                            </div>
-                            <div className={'product-top__subtitle'}>
-                                Продаешь крутые товары, но покупатели их не видят потому что они на последних страницах
-                                в
-                                выдаче? С помощью WILD BEST ты продвинешься в ТОП-20 всего за 14 дней
-                            </div>
+        <div className={'container'}>
+            <div className={'product-top'}>
+                <div className={'product-top__content'}>
+                    <div className={'product-top__text'}>
+                        <div className={'product-top__title'}>
+                            Продвигайте свои товары в ТОП<br/>
+                            <span className={'product-top__color'}>за пару кликов мыши</span>
                         </div>
-
-                        <Button text={'Попробовать бесплатно'} width={274}/>
+                        <div className={'product-top__subtitle'}>
+                            Продаешь крутые товары, но покупатели их не видят потому что они на последних страницах
+                            в
+                            выдаче? С помощью WILD BEST ты продвинешься в ТОП-20 всего за 14 дней
+                        </div>
                     </div>
 
-                    <img className={'product-top__image'} src='/images/support/Frame_1.png'/>
-
+                    <Button text={'Попробовать бесплатно'} width={274}/>
                 </div>
 
-                <div className={'advantages-easy'}>
-                    <img className={'advantages-easy__image'} src='images/support/Frame_2.png'/>
-                    <TextContainer text={text1}/>
-                </div>
-                <div className={'advantages-profitably'}>
-                    <TextContainer text={text2}/>
-                    <img className={'advantages-easy__image'} src='images/support/Frame_3.png'/>
-                </div>
-                <div className={'advantages-safely'}>
-                    <img className={'advantages-easy__image'} src='images/support/Frame_4.png'/>
-                    <TextContainer text={text3}/>
-                </div>
+                <img className={'product-top__image'} src='/images/support/Frame_1.png'/>
+
+            </div>
+
+            <div className={'advantages-easy'}>
+                <img className={'advantages-easy__image'} src='images/support/Frame_2.png'/>
+                <TextContainer text={text1}/>
+            </div>
+            <div className={'advantages-profitably'}>
+                <TextContainer text={text2}/>
+                <img className={'advantages-easy__image'} src='images/support/Frame_3.png'/>
+            </div>
+            <div className={'advantages-safely'}>
+                <img className={'advantages-easy__image'} src='images/support/Frame_4.png'/>
+                <TextContainer text={text3}/>
             </div>
         </div>
     );

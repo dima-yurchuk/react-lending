@@ -1,7 +1,7 @@
 import React from 'react';
-import './Item.scss'
+import './HowItWorksItem.scss'
 
-const Item = ({marginTop, height, align, image, heightTextBlock, text}) => {
+const HowItWorksItem = ({marginTop, height, align, image, heightTextBlock, text}) => {
     let marginTopLocal = 0
     if(marginTop){
         marginTopLocal = marginTop
@@ -19,4 +19,4 @@ const Item = ({marginTop, height, align, image, heightTextBlock, text}) => {
     );
 };
 
-export default Item;
+export default HowItWorksItem;

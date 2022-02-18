@@ -6,11 +6,9 @@ const Button = ({text, width}) => {
         width: width
     }
     return (
-        // <div>
-            <button style={buttonStyles} className={'button button__blue'}>
-                {text}
-            </button>
-        // </div>
+        <button style={buttonStyles} className={'button button__blue'}>
+            {text}
+        </button>
     );
 };
 
