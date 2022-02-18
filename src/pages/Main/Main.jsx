@@ -1,5 +1,5 @@
 import React from 'react';
-import  './Content.scss'
+import  './Main.scss'
 import Advantages from "./Advantages/Advantages";
 import TryForFree from "./ TryForFree/ TryForFree";
 import HowItWorks from "./HowItWorks/HowItWorks";
@@ -7,7 +7,7 @@ import KeyPoints from "./KeyPoints/KeyPoints";
 import WhoNeeds from "./WhoNeeds/WhoNeeds";
 import Reviews from "./Reviews/Reviews";
 
-const Content = () => {
+const Main = () => {
     return (
         <div>
             <div className={'content'}>
@@ -25,4 +25,4 @@ const Content = () => {
     );
 };
 
-export default Content;
+export default Main;

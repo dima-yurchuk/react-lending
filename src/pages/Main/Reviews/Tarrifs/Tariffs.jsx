@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tariffs.scss'
-import Button from "../../../UI/Button/Button";
+import Button from "../../../../components/Button/Button";
 
 const Tariffs = ({title, price, offer}) => {
     return (
