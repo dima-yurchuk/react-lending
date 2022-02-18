@@ -1,11 +1,11 @@
 import React from 'react';
 import  './Main.scss'
-import Advantages from "./Advantages/Advantages";
-import TryForFree from "./ TryForFree/ TryForFree";
-import HowItWorks from "./HowItWorks/HowItWorks";
-import KeyPoints from "./KeyPoints/KeyPoints";
-import WhoNeeds from "./WhoNeeds/WhoNeeds";
-import Reviews from "./Reviews/Reviews";
+import Advantages from "../../components/Advantages/Advantages";
+import TryForFree from "../../components/ TryForFree/ TryForFree";
+import HowItWorks from "../../components/HowItWorks/HowItWorks";
+import KeyPoints from "../../components/KeyPoints/KeyPoints";
+import WhoNeeds from "../../components/WhoNeeds/WhoNeeds";
+import Reviews from "../../components/Reviews/Reviews";
 
 const Main = () => {
     return (

@@ -1,21 +1,14 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import './Support.scss'
 
 const Support = () => {
-    let style={
-        height: '600px'
-    }
-    let hStyle = {
-        color: 'cadetblue'
-    }
     return (
-        <div>
-            <div align={'center'} style={style}>
-                <h3 style={hStyle}>Підтримка</h3><br/>
-                <Link to={'/'}>
-                    <button>На головну</button>
-                </Link>
-            </div>
+        <div align={'center'} className={'support'}>
+            <h3>Підтримка</h3><br/>
+            <Link to={'/'}>
+                <button>На головну</button>
+            </Link>
         </div>
     );
 };
